@@ -2,6 +2,7 @@ import React from "react"
 import styles from '../App.module.css';
 import data from './content.json'
 import Mailservice from "./MailService";
+
 export default function Contact(){
   return (
     <div>
