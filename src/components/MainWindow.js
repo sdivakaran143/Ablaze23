@@ -7,6 +7,7 @@ import Contact from "./Contact"
 import Schedule from "./Schedule"
 import Collegetittlecard from "./CollagetittleCard"
 import Regestrationfee from "./Regestrationfee"
+
 export default function MainWindow() {
   return (
     <div>

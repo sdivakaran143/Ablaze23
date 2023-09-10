@@ -1,5 +1,6 @@
 import styles from '../App.module.css';
 import React,{useEffect} from 'react';
+
 export default function LoadingWindow(){
     useEffect(()=>{        
         console.log("Welcome,Developer👋!..\nThe console's door is open, and innovation awaits.");

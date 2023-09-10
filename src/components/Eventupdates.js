@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react"
 import styles from '../App.module.css';
 import axios from 'axios';
+
 function Eventupdates(){
     const[eventupdates,seteventupdates]=useState([]);
     useEffect(()=>{

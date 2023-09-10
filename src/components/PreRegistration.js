@@ -1,6 +1,7 @@
 import React from "react"
 import styles from '../App.module.css';
 import Registernow from "./Registernow";
+
 export default function PreRegistration(){
   return (
     <div className={styles.preregisterwindow}>
