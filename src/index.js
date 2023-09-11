@@ -10,7 +10,6 @@ const Window=()=>{
   const[isloading,setloading]=useState(true);
   setInterval(()=>{
     setloading(false)
-    // console.log(sessionStorage.getItem("isalive"));
     sessionStorage.setItem("isalive","true");
   },3000)
   return (isloading&&sessionStorage.getItem("isalive")!=="true")?<LoadingWindow/>:<App/>
