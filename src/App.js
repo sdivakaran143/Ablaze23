@@ -9,7 +9,7 @@ import axios from "axios";
 function App() {
   useEffect(()=>{
     const NewVisitor=()=>{
-      axios("https://script.google.com/macros/s/AKfycbzKnJPAwiHOG0Cfx8midatsgNSXKDM0IPWSxIlRaLGem5ltXw-2eDc7LCG7l9M4dGDN/exec")
+      axios("https://script.google.com/macros/s/AKfycbweGUH_7rO7Nels4QaZ-btDr43803mcvwP62l16QhubHRrk7oW5vdR-FrI6O-uv9jT9/exec")
       .then(localStorage.setItem("Developer", "developerd.mailme@gmail.com"));
     }
     if(!(localStorage.getItem("Developer"))){
