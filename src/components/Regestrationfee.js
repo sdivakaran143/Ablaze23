@@ -5,6 +5,9 @@ export default function Regestrationfee(){
   return (
     <div className={styles.regestrationfeesdiv}>
         <h2>Registration Fees</h2>
+        <div className={styles.notice}>
+            <h3>Early Bird registration is highly appreciated for the smooth conduct of programmes</h3>
+        </div>
         <div className={styles.regestrationfee}>
             <div className={styles.feecard}>
                 <h3>Events</h3>
