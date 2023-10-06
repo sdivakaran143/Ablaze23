@@ -54,6 +54,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: white;
 }
 .scrolldown{
     /* position: absolute; */
@@ -205,8 +206,7 @@ h2{
     justify-content: center;
     text-align: center;
     height: 35vh;
-    padding: 10px
-    ;
+    padding: 10px;
 }
 .workshop h2{
     color: white ;
@@ -314,28 +314,49 @@ h2{
 }
 /* ---------------------------------------------Events Update -------------------------------------------------------------------- */
 .eventsupdate{
+    text-align: left;
     color: black;
-    
+    height: 98.5vh;
 }
-.eventsupdate h1{
-    font-variant: small-caps;
-    text-align: center;
-    background: linear-gradient(rgba(233, 220, 230, 0.911),rgba(255, 255, 255, 0.192),rgba(233, 220, 230, 0.911));
+.eventsupdate h2{
     padding: 10px;
+    font-variant: small-caps;
+    background: #8bc8f9;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0px auto;
+    margin-top: 10px;
+    color: white;
 }
-.EventUpdateCard{
+.EventUpdateCard h1{
+    font-variant: small-caps;
+    font-weight: 700;
+}
+.EventUpdateCard p{
+    padding: 5px 0px;
+}
+.EventUpdateCard {
+    position: relative;
     background:white;
-    padding: 30px;
-    width: 30vw;
-    text-align: center;
+    width: 40vw;
+    height: 30vh;
     margin: 20px auto;
-    /* border: 1px solid green; */
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.281);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.EventUpdateCard h2{
-    padding: 0px;
-    text-align: center;
+.posttime{
+    font-size: small;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: grey;
+}
+.EventUpdateCard span{
+    font-weight: 700;
 }
 .Collegetittle{
     display: flex;
@@ -450,6 +471,30 @@ h2{
     50% { opacity: 100%; }
     100% { opacity: 0%; }
   }
+
+/* ----------------------------Feedback ----------------------------*/
+.Feedback{
+    min-height: 100vh;
+    max-height: inherit;
+}
+.Feedback h1{
+    padding: 40px 10px 20px 10px;
+    text-align: center;
+}
+.Feedback h2{
+    padding: 25px 10px;
+}
+.Feedbackbuttons{
+    width: 300px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Feedbackbuttons Button{
+    color: #000;
+    font-weight: 900;
+}
 
 /* ------------------------------mobile Settings ----------------------------*/
 @media screen  and (max-width:878px) {

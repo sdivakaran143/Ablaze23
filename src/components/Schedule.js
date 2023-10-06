@@ -13,7 +13,11 @@ import styles from '../App.module.css';
 import MicExternalOnIcon from '@mui/icons-material/MicExternalOn';
 import CoPresentIcon from '@mui/icons-material/CoPresent';
 import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
-
+import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
+import TheatersIcon from '@mui/icons-material/Theaters';
+import CampaignIcon from '@mui/icons-material/Campaign';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import ClassIcon from '@mui/icons-material/Class';
 export default function Schedule() {
   return (
     <div className={styles.schedule}>
@@ -131,7 +135,28 @@ export default function Schedule() {
           <Typography><b>Venue : </b> R2s Lab, F Block - 2nd Floor</Typography>
         </TimelineContent>
       </TimelineItem>
-
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body2"
+          color="text.secondary"
+        >
+          11:00 am to 12:30 pm
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot color="primary">
+            <ClassIcon/>
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '30px', px: 2 }}>
+          <Typography variant="b" component="b">
+            Workshop
+          </Typography>
+          <Typography><b>Venue : </b>Denuka Hall,C Block</Typography>
+        </TimelineContent>
+      </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -187,7 +212,7 @@ export default function Schedule() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary">
-            <CodeIcon/>
+            <TipsAndUpdatesIcon/>
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -209,13 +234,13 @@ export default function Schedule() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="success">
-            <CodeIcon/>
+            <TheatersIcon/>
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '30px', px: 2 }}>
           <Typography variant="b" component="b">
-            Film Fights
+            Flim Fights
           </Typography>
           <Typography><b>Venue : </b>Dhenuka Hall, C Block</Typography>
         </TimelineContent>
@@ -231,7 +256,7 @@ export default function Schedule() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="success">
-            <CodeIcon/>
+            <CampaignIcon/>
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -253,7 +278,7 @@ export default function Schedule() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="secondary">
-            <CodeIcon/>
+            <EmojiEventsIcon/>
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
