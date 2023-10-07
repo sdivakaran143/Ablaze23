@@ -5,7 +5,7 @@ import axios from 'axios';
 function Eventupdates(){
     const[eventupdates,seteventupdates]=useState([]);
     useEffect(()=>{
-            axios("https://script.google.com/macros/s/AKfycbwb3oRZIYbKsQP8aFB-iBHx3GauPQLPkFXqP9u6F70yJPY1AnvFGfPRARi0souKyH5LBg/exec").then(response=>{
+            axios("https://script.google.com/macros/s/AKfycbzTdyJzNNKR5kpYccYrLJQ4XiTVQn1cjlL6rc8ywJp9dxZpmTIlYA_mDM0YmYCYpMrfAQ/exec").then(response=>{
             if(response.status===302){
                 var redirectedUrl = response.headers.get("Location");
                 if (redirectedUrl) {
@@ -18,7 +18,6 @@ function Eventupdates(){
     return (
     <div className={styles.eventsupdate}>
         <h2>Notification Center</h2>
-        { console.log(eventupdates) }
         {
             eventupdates.map((data,i)=>{
                 return(
