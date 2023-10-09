@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
     <Routes>
-       <Route exact path='/PreRegistion' element={< PreRegistration />}/>
+       <Route exact path='/Feedback' element={< PreRegistration />}/>
        <Route exact path='/' element={<MainWindow/>}/>
        <Route exact path='/Eventupdates' element={<Eventupdates/>}/>
       <Route exact path='/contact' element={<Contact/>}/>
