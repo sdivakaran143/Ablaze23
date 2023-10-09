@@ -5,7 +5,7 @@ import axios from 'axios';
 function Eventupdates(){
     const[eventupdates,seteventupdates]=useState([]);
     useEffect(()=>{
-            axios("https://script.google.com/macros/s/AKfycbwb3oRZIYbKsQP8aFB-iBHx3GauPQLPkFXqP9u6F70yJPY1AnvFGfPRARi0souKyH5LBg/exec").then(response=>{
+            axios("https://script.google.com/macros/s/AKfycbykl0kyBvGNsa5q9VGU7FoxOPqk84S88HuIaJctI0h9A3ae5pbBaxRM6i5rP2Znr3mktw/exec").then(response=>{
             if(response.status===302){
                 var redirectedUrl = response.headers.get("Location");
                 if (redirectedUrl) {
