@@ -316,7 +316,10 @@ h2{
 .eventsupdate{
     text-align: left;
     color: black;
-    height: 98.5vh;
+    min-height: 98.5vh;
+    max-height: inherit;
+    padding: 20px;
+
 }
 .eventsupdate h2{
     padding: 10px;

@@ -18,7 +18,6 @@ function Eventupdates(){
     return (
     <div className={styles.eventsupdate}>
         <h2>Notification Center</h2>
-        { console.log(eventupdates) }
         {
             eventupdates.map((data,i)=>{
                 return(
