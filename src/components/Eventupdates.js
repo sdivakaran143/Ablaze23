@@ -37,7 +37,7 @@ function Eventupdates(){
                         <p className={styles.Description}>{data.Description}</p>
                         {(data.EventTime)?<p><span>Assemble At&nbsp;&nbsp;&nbsp; : </span>{data.EventTime} | {data.Venue}</p>:""}
                         {/* <p><span>Venue&nbsp; : </span>{data.Venue}</p> */}
-                        <span className={styles.posttime}>Posted By {data.OrganizerName } |{data.PostingDate} {data.PostingTime}</span>
+                        <span className={styles.posttime}>{data.OrganizerName } | {data.PostingDate} {data.PostingTime}</span>
                     </div>
                 )})
         }
