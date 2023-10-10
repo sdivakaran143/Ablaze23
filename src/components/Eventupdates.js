@@ -6,9 +6,8 @@ import CircularProgress from '@mui/material/CircularProgress';
 function Eventupdates(){
     const[eventupdates,seteventupdates]=useState([]);
     const[eventload,setevents]=useState(true);
-    useEffect(()=>{
-        setInterval(()=>{
-            axios("https://script.google.com/macros/s/AKfycbyJ7831o0D4RGSc9ZhdZxGMB9mZK-yvNaw2GwmwcgNn56cjphXVUsVvXXqNsIEoKoG6iA/exec").then(response=>{
+    const callapi=()=>{
+         axios("https://script.google.com/macros/s/AKfycbyJ7831o0D4RGSc9ZhdZxGMB9mZK-yvNaw2GwmwcgNn56cjphXVUsVvXXqNsIEoKoG6iA/exec").then(response=>{
             if(response.status===302){
                 var redirectedUrl = response.headers.get("Location");
                 if (redirectedUrl) {
@@ -18,6 +17,11 @@ function Eventupdates(){
             setevents(false);
             return seteventupdates(response.data);
         })   
+    }
+    useEffect(()=>{
+        callapi();
+        setInterval(()=>{
+           callapi();
         },7000)
     },[]);
     return (
