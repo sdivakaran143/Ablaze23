@@ -22,7 +22,7 @@ function Eventupdates(){
         setInterval(()=>{
            callapi();
         },10000);
-    },[eventupdates]);
+    },[]);
     useEffect(()=>{
         callapi();
     },[]);
