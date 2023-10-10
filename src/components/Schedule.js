@@ -132,7 +132,7 @@ export default function Schedule() {
           <Typography variant="b" component="b">
             Code Olympia
           </Typography>
-          <Typography><b>Venue : </b> R2s Lab, F Block - 2nd Floor</Typography>
+          <Typography><b>Venue : </b> R2s Lab, F Block - 1st Floor</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -220,7 +220,7 @@ export default function Schedule() {
           <Typography variant="b" component="b">
           Think Genius
           </Typography>
-          <Typography><b>Venue : </b> R2s Lab, F Block - 2nd Floor</Typography>
+          <Typography><b>Venue : </b> R2s Lab, F Block - 1st Floor</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
