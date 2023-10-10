@@ -22,7 +22,7 @@ function Eventupdates(){
         callapi();
         setInterval(()=>{
            callapi();
-        },10000);
+        },20000);
     },[]);
     
     return (
