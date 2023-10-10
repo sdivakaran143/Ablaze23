@@ -7,7 +7,7 @@ function Eventupdates(){
     const[eventupdates,seteventupdates]=useState([]);
     const[eventload,setevents]=useState(true);
     const callapi=()=>{
-         axios("https://script.google.com/macros/s/AKfycbyJ7831o0D4RGSc9ZhdZxGMB9mZK-yvNaw2GwmwcgNn56cjphXVUsVvXXqNsIEoKoG6iA/exec").then(response=>{
+         axios("https://script.google.com/macros/s/AKfycbyzVlUmcTEMZnkPiEYRl2PHwDZ5anljmsDJTCUWiENcnNkebcMcJr-1Qlib7QYnoSlpwA/exec").then(response=>{
             if(response.status===302){
                 var redirectedUrl = response.headers.get("Location");
                 if (redirectedUrl) {
