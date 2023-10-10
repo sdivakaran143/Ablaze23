@@ -7,7 +7,7 @@ function Eventupdates(){
     const[eventupdates,seteventupdates]=useState([]);
     const[eventload,setevents]=useState(true);
     const callapi=()=>{
-         axios("https://script.google.com/macros/s/AKfycbxXcu6kTaYFZOH31EbQkv3GhiAGzdMvlFtpcgABjDWP6cM84MVC1BWhz5opo2SYKvZLyg/exec").then(response=>{
+         axios("https://script.google.com/macros/s/AKfycbz-sH7ASD8BfvsQm9EnyrRG3CW0yqPADVrSVNBRsoIfY6m4tUxsqTs2s2FOOJz4OfCRwA/exec").then(response=>{
             if(response.status===302){
                 var redirectedUrl = response.headers.get("Location");
                 if (redirectedUrl) {
@@ -37,7 +37,7 @@ function Eventupdates(){
                         <p className={styles.Description}>{data.Description}</p>
                         {(data.EventTime)?<p><span>Assemble At&nbsp;&nbsp;&nbsp; : </span>{data.EventTime} | {data.Venue}</p>:""}
                         {/* <p><span>Venue&nbsp; : </span>{data.Venue}</p> */}
-                        <span className={styles.posttime}>Posted By {data.OrganizerName } | {data.PostingTime}</span>
+                        <span className={styles.posttime}>Posted By {data.OrganizerName } |{data.PostingDate} {data.PostingTime}</span>
                     </div>
                 )})
         }
