@@ -18,7 +18,7 @@ function Eventupdates(){
             setevents(false);
             return seteventupdates(response.data);
         })   
-        },3000)
+        },7000)
     },[]);
     return (
     <div className={styles.eventsupdate}>
