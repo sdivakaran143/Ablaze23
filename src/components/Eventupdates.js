@@ -22,8 +22,8 @@ function Eventupdates(){
         callapi();
         setInterval(()=>{
            callapi();
-        },7000)
-    },[]);
+        },10000);
+    },[eventupdates]);
     return (
     <div className={styles.eventsupdate}>
         <h2>Event Updates</h2>
