@@ -19,11 +19,13 @@ function Eventupdates(){
         })   
     }
     useEffect(()=>{
-        callapi();
         setInterval(()=>{
            callapi();
         },10000);
     },[eventupdates]);
+    useEffect(()=>{
+        callapi();
+    },[]);
     return (
     <div className={styles.eventsupdate}>
         <h2>Event Updates</h2>
