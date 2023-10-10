@@ -6,7 +6,8 @@ export default function Regestrationfee(){
     <div className={styles.regestrationfeesdiv}>
         <h2>Registration Fees</h2>
         <div className={styles.notice}>
-            <h3>Early Bird registration is highly appreciated for the smooth conduct of programmes</h3>
+            {/*<h3>Early Bird registration is highly appreciated for the smooth conduct of programmes</h3>*/}
+            <h3>On-Spot Registration Closed</h3>
         </div>
         <div className={styles.regestrationfee}>
             <div className={styles.feecard}>
