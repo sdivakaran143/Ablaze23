@@ -358,6 +358,12 @@ h2{
     right: 10px;
     color: grey;
 }
+.ptime{
+    background:rgb(48, 48, 49);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
 .EventUpdateCard span{
     font-weight: 700;
 }

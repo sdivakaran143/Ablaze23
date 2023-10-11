@@ -10,7 +10,7 @@ function Eventupdates(){
          axios("https://script.google.com/macros/s/AKfycbxLOYaBBqE_JcsN8PslVFfvTpLEbTrCJwEd-l2WWAu1THNjZ_SPMD5qKFGRzG3LSVe0yw/exec").then(response=>{
             if(response.status===302){
                 var redirectedUrl = response.headers.get("Location");
-                if (redirectedUrl) {
+                if (redirectedUrl){
                 return fetch(redirectedUrl); 
                 }
             }
@@ -37,7 +37,7 @@ function Eventupdates(){
                         <p className={styles.Description}>{data.Description}</p>
                         {(data.EventTime)?<p><span>Assemble At&nbsp;&nbsp;&nbsp; : </span>{data.EventTime} | {data.Venue}</p>:""}
                         {/* <p><span>Venue&nbsp; : </span>{data.Venue}</p> */}
-                        <span className={styles.posttime}>{data.OrganizerName } | {data.PostingDate} {data.PostingTime}</span>
+                        <span className={styles.posttime}>{data.OrganizerName } | {data.PostingDate} <span className={styles.ptime}>{data.PostingTime}</span></span>
                     </div>
                 )})
         }
