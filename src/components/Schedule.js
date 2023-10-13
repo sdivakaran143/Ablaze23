@@ -198,7 +198,7 @@ export default function Schedule() {
           <Typography variant="b" component="b">
             Koda Chrome
           </Typography>
-          <Typography><b>Venue : </b> MCA Net Lab, C Block - 3rd Floor</Typography>
+          <Typography><b>Venue : </b> R2s Lab, F Block - 2nd Floor</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
