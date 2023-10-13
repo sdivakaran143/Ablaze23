@@ -176,7 +176,7 @@ export default function Schedule() {
           <Typography variant="b" component="b">
             Lunch Break 
           </Typography>
-          {/* <Typography><b>Venue : </b>Canteen, Near F Block</Typography> */}
+          <Typography><b>Venue : </b>RR Hostel, Near F Block</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
