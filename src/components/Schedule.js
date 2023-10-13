@@ -51,7 +51,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          10:40 am to 12:00 pm
+          11:00 am to 1:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -74,7 +74,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          10:40 am to 12:30 pm
+          02:00 am to 3:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -97,7 +97,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          10:40 am to 12:00 pm
+          11:00 am to 1:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -119,7 +119,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          10:30 am to 12:30 pm
+          11:30 am to 1:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -141,7 +141,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          11:00 am to 12:30 pm
+          11:00 am to 1:15 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -163,7 +163,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          12:30 pm to 1:30 pm
+          1:15 pm to 2:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -185,7 +185,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          1:30 pm to 2:30 pm
+          2:00 pm to 3:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -207,7 +207,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          1:30 pm to 2:30 pm
+          2:00 pm to 3:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -229,7 +229,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          1:30 pm to 2:30 pm
+          2:00 pm to 3:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -251,7 +251,7 @@ export default function Schedule() {
           variant="body2"
           color="text.secondary"
         >
-          2:30 pm to 3:00 pm
+          2:00 pm to 3:00 pm
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
