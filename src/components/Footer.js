@@ -16,7 +16,7 @@ export default function Footer(){
             <a className={styles.link} title="mail" target='_blank' href="mailto:ksrce.ablaze@gmail.com"><AiFillMail/></a>
             <a className={styles.link} title="Instagram" target='_blank' href="https://www.instagram.com/ksrce_cse/"><BsInstagram/></a>
         </div>
-        <span>Developed By Team Ablaze23</span>
+        <span>Developed By <a href="https://divakaransenthilkumar.onrender.com/">Divakaran Senthilkumar</a></span>
         </div>
     </div>
   )
