@@ -312,6 +312,9 @@ h2{
 .Footer .textcontent{
     text-align: center;
 }
+.Footer .developername{
+    color:blue;
+}
 /* ---------------------------------------------Events Update -------------------------------------------------------------------- */
 .eventsupdate{
     text-align: left;
