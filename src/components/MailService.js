@@ -36,7 +36,7 @@
                 {loading?(<CircularProgress/>):""}
             </div>
                 <h2>message us!</h2>
-                <TextField id="outlined-basic" label="Name" variant="outlined"  type="text" className={styles.halfinput} name="username" placeholder="First Name" required/>
+                <TextField id="outlined-basic" label="Name" variant="outlined"  type="text" className={styles.halfinput} name="username" placeholder="Name" required/>
                 <TextField id="outlined-basic" label="Email ID" variant="outlined"  type="email" className={styles.fullinput} placeholder="Email id" name="useremail" required/>
                 <TextField id="outlined-basic" label="Contact NO" variant="outlined"  type="number" className={styles.fullinput} name="userphone" placeholder="Phone Number without +91" required/>
                 <TextField id="outlined-basic" label="Message" variant="outlined" type='text' rows="4" cols="50" className={[styles.fullinput, styles.largebox].join(' ')} name="usermessage" placeholder="Write a message" required/>

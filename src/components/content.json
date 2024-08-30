@@ -5,7 +5,7 @@
       "shotdescription": "Paper Presentation",
       "img": "https://img.freepik.com/free-photo/peorson-taking-part-business-event_23-2149333682.jpg?w=740&t=st=1693415540~exp=1693416140~hmac=4d8be41b9b889d3e35a310bdfcb1168650177af7d7d34ee96f236660a97839ed",
       "bref": "A paper presentaion event where students of solo or a team can present their paper on advanced technology related to engineering topics",
-      "notes": "Maximum 15 slide"
+      "notes": ""
     },
     {
       "title": "Ideathon",
@@ -15,55 +15,62 @@
       "notes": ""
     },
     {
-      "title": "Code Olympia",
-      "shotdescription": "Coding Contest",
+      "title": "Segfault",
+      "shotdescription": "Debugging Event",
       "img": "https://img.freepik.com/free-vector/programmers-concept-with-flat-design_23-2147850221.jpg?w=1060&t=st=1693416113~exp=1693416713~hmac=22e46d57398d046c57bb5ae7eaefaa42321fecfec466bd669fce2af5fac27d48",
-      "bref": "First round contains basic coding problems.participant who shotlisted from first round participant will give with medium level problems in 2nd round.shortlisted participant move to next round...",
-      "notes": "Participant can choose C/C++,Java,Python"
+      "bref": "Analyzing and troubleshooting issues by examining and resolving events and logs in software systems.",
+      "notes": ""
     },
     {
-        "title": "Koda Chrome",
-        "shotdescription": "Design And Develope The world",
-        "img": "https://miro.medium.com/max/1050/1*R9vfWQrF0c223dm3wTTnGQ.jpeg",
-        "bref": "Participant should develop a website with the topic. Shortlist will be based on Developed design.",
-        "notes": "on spot Topic and Users can use any technologies"
+      "title": "Code Hackat",
+      "shotdescription": "Hackathon",
+      "img": "https://moldstud.com/uploads/images/the-benefits-of-hackathons-for-computer-science-admissions.webp?w=544&h=408",
+      "bref": "A collaborative event where participants rapidly develop innovative solutions to challenges within a set timeframe.",
+      "notes": ""
     },
     {
-        "title": "Think Genius",
-        "shotdescription": "Genius Test",
-        "img": "https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=1060&t=st=1693416174~exp=1693416774~hmac=6b4eb1401704408b7d01c8c821e26a7552b163e329ac9a4c0741d756310c1321",
-        "bref": "It will be contest based on MCQ Type Questions. Image related questions to test your IQ",
-        "notes": ""
+      "title": "Algorithm Adventure",
+      "shotdescription": "Puzzle challenge",
+      "img": "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bref": "An immersive journey through solving complex problems with creative and efficient algorithms.",
+      "notes": ""
     }
   ],
   "nontechnicalevents": [
     {
-      "title": " Ink and Imagination",
-      "shotdescription": "Paint your own World",
+      "title": "Art-Tech Fusion",
+      "shotdescription": "Creative Imaginary",
       "img": "https://img.freepik.com/free-photo/composition-messy-used-artists-equipment-dyeing_23-2148185782.jpg?w=1060&t=st=1693417643~exp=1693418243~hmac=82d1fec9bab74cae639460f68b67747991eb122835b1131df926e0684bea452b",
-      "bref": "Paper painting , brushless painting , plastic plate painting",
-      "notes":"On spot topic"
+      "bref": "Blending artistic creativity with technological innovation to create groundbreaking and visually compelling experiences.",
+      "notes": ""
     },
     {
-      "title": "Film Fights",
-      "shotdescription": "Fliming Contest",
+      "title": "Storyboarding Sprint",
+      "shotdescription": "Story Telling",
+      "img": "https://miro.medium.com/v2/resize:fit:1000/1*SpGAbiDQCPTOPKRorm-N6w.jpeg",
+      "bref": "Crafting and sharing engaging narratives to captivate and connect with an audience.",
+      "notes": "On spot topic"
+    },
+    {
+      "title": "Filmography",
+      "shotdescription": "Short Film",
       "img": "https://img.freepik.com/free-photo/man-filming-with-professional-camera-new-movie_23-2149066401.jpg?w=740&t=st=1693417580~exp=1693418180~hmac=a3e3bef01b34a61ee5d405e990e354fb0937f4183049775581a37c2b8b1d2383",
       "bref": " Abstract should be sent before the event based on the given topic and the film should be projected during the event day",
-      "notes":"Duration of Short film around 2 to 3 minutes"
+      "notes": "Duration of Short film around 2 to 3 minutes"
     },
     {
-      "title": "Picture Perfect",
-      "shotdescription": "Capture The Every Movements",
+      "title": "Portraiture",
+      "shotdescription": "Photography",
       "img": "https://img.freepik.com/free-vector/male-photographer-with-camera-hand-drawn-sketch-vector_460848-14670.jpg?w=996&t=st=1693417748~exp=1693418348~hmac=5a94d2431f5cab8bc3a810b59578c0d4e055d76a2172af378f6a84646c1d40f6",
       "bref": "The Participant should take photographs around the college campus. The participant take photograph based on the given topic .",
-      "notes":"On spot topic"
+      "notes": "On spot topic"
     },
     {
-      "title": "Marketing Master",
-      "shotdescription": "Make Your Own brand",
+      "title": "Spell Bee",
+      "shotdescription": "Quiz",
       "img": "https://img.freepik.com/free-photo/showing-tablet-s-blank-screen_155003-21288.jpg?size=626&ext=jpg&ga=GA1.1.646999947.1680193158&semt=sph",
-      "bref": "It's an Advertising event.Advertising based on Exploring our events and promoting the events or college to the participants",
-      "notes":""
+      "bref": "A competitive event where participants demonstrate their spelling skills by correctly spelling challenging words.",
+      "notes": ""
     }
   ],
   "contatcpersons": [
@@ -73,14 +80,14 @@
       "Conatct": "+91 9788896366"
     },
     {
-      "name": "Bharath G",
+      "name": "Kavin K",
       "position": "Secretary",
-      "Conatct": "+91 9677975607"
+      "Conatct": "+91 9080802151"
     },
     {
-      "name": "Saranraj S",
+      "name": "Sakthivel Rajan N",
       "position": "Organizer",
-      "Conatct": "+91 9344267274"
+      "Conatct": "+91 7010445386  "
     }
   ]
 }

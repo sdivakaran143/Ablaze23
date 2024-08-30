@@ -9,9 +9,9 @@ export default function Registernow(){
   }
   return (
     <div className={styles.registerbar}>
-      <Button variant="contained" color="error" style={style}><Link to="/Eventupdates">Event Updates</Link></Button>
+      {/* <Button variant="contained" color="error" style={style}><Link to="/Eventupdates">Event Updates</Link></Button> */}
       {/* <Button variant="contained" color="error" style={style}><Link to="/Feedback">Feedbacks</Link></Button> */}
-      <Button variant="contained" color="error"><Link target="_blank" to="https://forms.gle/AV2cJAdwFyhj8jFYA">Register Now</Link></Button>
+      <Button variant="contained" color="error"><Link target="_blank" to="https://forms.gle/PamBdT5NziSfN8Vt6">Register Now</Link></Button>
     </div>
   )
 }

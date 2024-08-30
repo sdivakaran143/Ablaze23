@@ -34,7 +34,7 @@ export default function Events() {
               <div className={styles.maincard} style={cardstyle}>
                 <h3>{event.title}</h3>
                 <p>{event.shotdescription}</p>
-                <span>Click Me</span>
+                <span>Hover Me</span>
               </div>
             </FlippingCardFront>
           </FlippingCard>
@@ -45,20 +45,16 @@ export default function Events() {
   return (
     <div className={styles.events}>
       <h2>Technical Events</h2>
-      <div className={styles.eventcards}>
-        {events(data.technicalevents)}
-      </div>
+      <div className={styles.eventcards}>{events(data.technicalevents)}</div>
       <h2>Non-Technical Events</h2>
-      <div className={styles.eventcards}>
-        {events(data.nontechnicalevents)}
-      </div>
+      <div className={styles.eventcards}>{events(data.nontechnicalevents)}</div>
       <h2>Workshop</h2>
       <div className={styles.workshop}>
         <div className={styles.workshopcard}>
-          <h2>The skills required for full stack development</h2>
+          <h2>Workshop on python for AI & ML</h2>
           <p>
-            full-stack development is quite in demand for its diversified role
-            and proficiency in different skill sets.
+          "An interactive session focused on exploring and applying 
+           artificial intelligence and machine learning techniques."
           </p>
         </div>
       </div>

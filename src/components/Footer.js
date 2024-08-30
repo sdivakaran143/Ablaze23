@@ -10,13 +10,13 @@ export default function Footer(){
         <div className={styles.content}>
           <div className={styles.textcontent}>
             <p>Follow us!</p>
-            #ksrce #ablaze23 #Ksrcecse
+            #ksrce #weloveksr #ablaze24 #Ksrcecse
           </div>
         <div className={styles.socialmedias}>
-            <a className={styles.link} title="mail" target='_blank' href="mailto:ksrce.ablaze@gmail.com"><AiFillMail/></a>
-            <a className={styles.link} title="Instagram" target='_blank' href="https://www.instagram.com/ksrce_cse/"><BsInstagram/></a>
+            <a className={styles.link} title="mail" target='_blank' href="mailto:cecsablaze2k24@gmail.com"><AiFillMail/></a>
+            <a className={styles.link} title="Instagram" target='_blank' href="https://www.instagram.com/cecs_ablaze2k24/"><BsInstagram/></a>
         </div>
-        <span>Developed By <a className={styles.developername} href="https://divakaransenthilkumar.onrender.com/">Divakaran Senthilkumar</a></span>
+        <span>Developed By Team Ablaze24</span>
         </div>
     </div>
   )

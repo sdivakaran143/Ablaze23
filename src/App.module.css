@@ -101,6 +101,15 @@ a{
 .schedule span{
     font-weight:900px;
 }
+.dayTitle{
+    width:fit-content;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px rgba(128, 128, 128, 0.195);
+    padding: 3px 10px;
+}
 /* -------------------register now------------------------ */
 .registerbar{
     z-index: 10;
@@ -205,15 +214,15 @@ h2{
     align-items: center;
     justify-content: center;
     text-align: center;
+    text-wrap:balance;
     height: 35vh;
-    padding: 10px;
 }
 .workshop h2{
     color: white ;
     padding: 30px;
 }
 .workshop{
-    background:linear-gradient(rgba(0, 0, 0, 0.891),rgba(0, 0, 0, 0.773)), url(https://th.bing.com/th/id/OIP.8kWjbrohEAjQOXmzCgXuhgHaEo?pid=ImgDet&rs=1) no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.741),rgba(0, 0, 0, 0.741)), url(https://th.bing.com/th/id/OIP.8kWjbrohEAjQOXmzCgXuhgHaEo?pid=ImgDet&rs=1) no-repeat;
     background-size: cover;
     color: white;
 }
@@ -462,13 +471,18 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.191);*/
-    border-radius: 5px;
-    background: white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.63);
     width: 22%;
     margin: 8px;
     text-align: center;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 12px;
+}
+.feecard h1{
+    padding: 5px;
+    color: rgb(0, 162, 243);
+    font-size:24px;
 }
 .notice{
     margin: 10px auto;;
